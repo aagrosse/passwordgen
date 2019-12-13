@@ -1,1 +1,53 @@
-# passwordgen
+# Password Generator
+
+## Link
+
+
+
+## Description 
+
+This project is a random password generator.  To execute, click the "Generate Password" button and enter the conditions of your password:
+
+    1) How many characters do you want in your password? (must be between 8-128 characters)
+
+    2) Select your character type (special, numeric, uppercase, lowercase) by selectiong ok in the prompt. (you must select at least one type)
+
+    3) The password is generated in the box provided
+
+    4) Click the copy to clipboard button to copy your password
+
+
+
+
+## Table of Contents (Optional)
+
+
+* [Installation](#installation)
+* [Usage](#usage)
+* [Credits](#credits)
+* [License](#license)
+
+
+## Installation
+
+No notes needed
+
+
+## Usage 
+
+Use this code to create random alpha-numeric passwords.
+
+
+## Credits
+
+no collaberators on this project.  Just me.
+
+
+
+## License
+
+no license needed since im just starting out and this is probablly very rough code.
+
+
+
+
