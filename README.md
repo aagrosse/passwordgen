@@ -1,5 +1,18 @@
 # Password Generator
 
+## Table of Contents
+
+
+* [Link](#link)
+* [Description](#description)
+* [Images](#images)
+* [Installation](#installation)
+* [Usage](#usage)
+* [Credits](#credits)
+* [License](#license)
+
+
+
 ## Link
 
 
@@ -19,14 +32,9 @@ This project is a random password generator.  To execute, click the "Generate Pa
 
 
 
-## Table of Contents (Optional)
+## Images
 
-
-* [Installation](#installation)
-* [Usage](#usage)
-* [Credits](#credits)
-* [License](#license)
-
+![User Interface](/assets/images/screenshot.png)
 
 ## Installation
 
