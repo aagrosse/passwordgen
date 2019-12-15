@@ -25,7 +25,7 @@ This project is a random password generator.  To execute, click the "Generate Pa
 
     2) Select your character type (special, numeric, uppercase, lowercase) by selectiong ok in the prompt. (you must select at least one type)
 
-    3) The password is generated in the box provided
+    3) Click "Generate Password and the password is generated in the box provided
 
     4) Click the copy to clipboard button to copy your password
 
