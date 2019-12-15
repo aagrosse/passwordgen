@@ -23,17 +23,14 @@ const resultEl = document.getElementById('password');
 
 
 
-generate.addEventListener('click', () => {	
-	const hasLower = clowercase.true;
-	const hasUpper = cuppercase.true;
-	const hasNumber = cnumbers.true;
-	const hasSymbol = csymbols.true;
+document.getElementById('generate').addEventListener('click', () => {	
+    const length = +plength;
+    const hasLower = clowercase = true;
+	const hasUpper = cuppercase = true;
+	const hasNumber = cnumbers = true;
+	const hasSymbol = csymbols = true;
 	resultEl.innerText = generatePassword(hasLower, hasUpper, hasNumber, hasSymbol, length);
 });
-
-
-
-
 
 
 const randomFunc = {
@@ -43,7 +40,7 @@ const randomFunc = {
 	symbol: getRandomSymbol
 }
 
-clipboard.addEventListener('click', () => {
+document.getElementById('clipboard').addEventListener('click', () => {
 	const textarea = document.createElement('textarea');
 	const password = resultEl.innerText;
 	
@@ -94,4 +91,3 @@ function getRandomSymbol() {
 	const symbols = '!@#$%^&*(){}[]=<>/,.'
 	return symbols[Math.floor(Math.random() * symbols.length)];
 }   
-console.log(resultEl)
