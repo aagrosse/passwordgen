@@ -6,57 +6,11 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Random Password Generator</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="style.css">
-    
+        
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-    <script type="text/javascript">
     
-        var charTypes = {
-            'upper': 'ABCDEFGHIJKLMNOPQRSTUVWXYZ',
-            'lower': 'abcdefghijklmnopqrstuvwxyz',
-            'number': '0123456789',
-            'special': '!$%^&*()-=+[]{};#:@~,./<>?'
-        };
-
-        function generatePassword(passwordLength){
-
-        prompt("How many characters would you like your password to be?")
-
-        confirm("Would you like to use uppercase letters?")
-
-        confirm("Would you like to use lowercase letters?")
-
-        confirm("would you like to use numbers?")
-
-        confirm("would you like to use special characters?")
-        }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-function copy() {
-  let textarea = document.getElementById("password");
-  textarea.select();
-  document.execCommand("copy");
-}
-
-</script>
 </head>
   
   
@@ -77,10 +31,12 @@ function copy() {
               aria-label="Generated Password"
             ></textarea>
            
-    <button type="button" class="btn btn-danger" onclick= "generatePassword()" style= "float:left; border-radius:40px; padding-right: 30px; padding-left: 30px;">Generate Password</button>
-    <button type="button" class="btn btn-light" id= "btn2" onclick= "copy()" style= "float:right;  border-radius:40px; padding-right: 30px; padding-left: 30px; background-color: silver; color:white">Copy to clipboard</button>
+    <button type="button" class="btn btn-danger" id= "generate" style= "float:left; border-radius:40px; padding-right: 30px; padding-left: 30px;">Generate Password</button>
+    <button type="button" class="btn btn-light" id= "clipboard" style= "float:right;  border-radius:40px; padding-right: 30px; padding-left: 30px; background-color: silver; color:white">Copy to clipboard</button>
 </div>
 </div>
+
+<script src="./script.js"></script>
   </body>
 </html>
 
