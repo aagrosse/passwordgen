@@ -23,12 +23,13 @@ const resultEl = document.getElementById('password');
 
 
 
+
 document.getElementById('generate').addEventListener('click', () => {	
     const length = +plength;
-    const hasLower = clowercase = true;
-	const hasUpper = cuppercase = true;
-	const hasNumber = cnumbers = true;
-	const hasSymbol = csymbols = true;
+    const hasLower = clowercase;
+	const hasUpper = cuppercase;
+	const hasNumber = cnumbers;
+	const hasSymbol = csymbols;
 	resultEl.innerText = generatePassword(hasLower, hasUpper, hasNumber, hasSymbol, length);
 });
 
